@@ -1,0 +1,10 @@
+.conteneur {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  /* grid-template-columns: repeat(2, 1fr); */
+}
+
+.conteneur > div {
+    border : 1px solid red;
+    text-align: center;
+}

@@ -1,0 +1,52 @@
+body {
+  background-color: #ccc;
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+  /* flex-direction: column; */
+}
+
+.flex > div {
+  width: 100px;
+  height: 100px;
+}
+.flex > div:nth-child(1) {
+  color: white;
+  background: blue;
+}
+.flex > div:nth-child(2) {
+  background: white;
+}
+.flex > div:nth-child(3) {
+  color: white;
+  background: red;
+}
+
+/* 
+.flex > div:nth-child(1) {
+  flex-basis: 20%;
+}
+.flex > div:nth-child(2) {
+  flex-basis: 60%;
+}
+.flex > div:nth-child(3) {
+  flex-basis: 20%;
+} */
+
+/* 
+.flex > div {
+  flex-basis: auto;
+  padding: 0.5rem;
+} */
+
+/* 
+.flex > div:nth-child(1) {
+  order: 2;
+}
+.flex > div:nth-child(2) {
+  order: 3;
+}
+.flex > div:nth-child(3) {
+  order: 1;
+} */

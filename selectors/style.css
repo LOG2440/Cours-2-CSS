@@ -1,0 +1,85 @@
+/* 
+p {
+  border: 2px solid red;
+}
+
+#wrap {
+  border: 3px solid blue;
+}
+
+div a {
+  border: 2px solid red;
+}
+
+.item em {
+  border: 2px solid red;
+}
+
+.item * {
+  border: 2px solid red;
+}
+
+body p {
+  border: 2px dashed blue;
+}
+
+body > p {
+  border: 2px dashed green;
+}
+
+body p > a {
+  border: 2px solid orange;
+}
+
+p.item em,
+a {
+  border: 2px solid magenta;
+}
+
+div p.item {
+  border: 2px solid brown;
+}
+
+section {
+  border: 2px solid black;
+} 
+
+.item ~ .item {
+  border: 3px double red;
+}
+
+.item ~ p {
+  border: 3px double blue;
+}
+
+.item + p {
+  border: 3px double   cyan;
+}
+
+.item + .item {
+  border: 3px double red;
+}
+
+p[title="important"]::first-letter {
+  font-family: cursive;
+  font-size: xx-large;
+  color: red;
+}
+
+#wrap::after {
+  content: "C'EST FINI!!!";
+  color: red;
+}
+
+p:not(:first-child):not(.item) {
+  border:  5px dashed blue;
+}
+
+em:hover {
+  color: red;
+  font-size: xx-large;
+}
+
+*/
+
+

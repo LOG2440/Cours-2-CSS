@@ -1,0 +1,23 @@
+body {
+  color: #000;
+  background-color: #fff;
+}
+#wrap {
+  font-size: 2em;
+  color: #333;
+}
+div {
+  font-size: 1em;
+}
+em {
+  color: #666;
+}
+p.item {
+  color: #fff;
+  background-color: #ccc;
+  border-style: dashed;
+}
+p {
+  border: 1px solid black;
+  padding: 0.5em;
+}

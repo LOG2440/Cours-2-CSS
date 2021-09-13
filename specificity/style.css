@@ -1,0 +1,21 @@
+* div#home > div#warning p[title="important"] {
+  color: red;
+}
+body#home div#warning p.message {
+  color: blue;
+}
+#home #warning p.message {
+  color: yellow;
+}
+#warning p.message {
+  color: fuchsia;
+}
+#warning p {
+  color: black;
+}
+p.message {
+  color: lime;
+}
+p {
+  color: orange;
+}
