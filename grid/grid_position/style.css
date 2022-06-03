@@ -1,0 +1,29 @@
+.conteneur {
+    display: grid;
+    grid-template-columns: 0.25fr 1fr 0.25fr;
+    grid-auto-columns: repeat(3, 1fr);
+}
+
+.conteneur>div {
+    border: 1px solid red;
+    text-align: center;
+}
+
+#un {
+    grid-row: 1/3;
+}
+
+#deux{
+    grid-column: 2;
+    height: 200px;
+}
+
+#trois{
+    grid-column: -2;
+    grid-row: 1/2;
+}
+
+#quatre{
+    grid-column: 2/-1;
+    grid-row: 2;
+}
