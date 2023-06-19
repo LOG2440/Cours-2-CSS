@@ -1,0 +1,32 @@
+#externe {
+    width: 200px;
+    height: 200px;
+    border: solid 10px red;
+    padding: 20px;
+    margin: 10px;
+}
+
+#interne {
+    margin: 10px;
+    border: solid 10px blue;
+    height: 160px;
+    width: 100%;
+}
+
+#externeL {
+    width: 200px;
+    height: 200px;
+    border: solid 10px red;
+    padding: 20px;
+    margin: 10px;
+}
+
+#interL {
+    width: 100%;
+}
+
+#interneL {
+    margin: 10px;
+    border: solid 10px blue;
+    height: 160px;
+}

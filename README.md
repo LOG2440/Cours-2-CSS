@@ -4,14 +4,14 @@ Cet entrepôt contient un ensemble d'exemples simples des différentes notions v
 
 ## [selectors](./selectors/)
 
-Contiens plusieurs exemples de sélecteurs CSS. Tous les sélecteurs sont disponibles dans le fichier [`style.css`](./selectors/style.css). 
+Contient plusieurs exemples de sélecteurs CSS. Tous les sélecteurs sont disponibles dans le fichier [`style.css`](./selectors/style.css). 
 
 Par défaut, toutes les règles sont en commentaire : vous pouvez les sortir du bloc de commentaires pour voir leur effet sur le code HTML fourni.
 
 Note : certaines règles différentes qui s'appliquent sur les mêmes éléments ont des spécificités différentes et vous ne verrez qu'une des règles appliquées. Voir la section [specificity](#specificity) pour des exemples de spécificité.
 ## [specificity](./specificity/)
 
-Contiens plusieurs exemples de sélecteurs CSS et leur spécificité. Tous les sélecteurs sont disponibles dans le fichier [`style.css`](./specificity/style.css). 
+Contient plusieurs exemples de sélecteurs CSS et leur spécificité. Tous les sélecteurs sont disponibles dans le fichier [`style.css`](./specificity/style.css). 
 
 Les règles sont triées en ordre descendant de spécificité dans le document, mais ceci n'est pas une obligation. Les règles CSS sont triées automatiquement après que le navigateur ait lu le fichier au complet.
 
@@ -19,13 +19,25 @@ Notez que le sélecteur `body#home div#warning p.message` n'affecte pas le HTML 
 
 ## [cascade](./cascade/)
 
-Contiens un exemple de cascade de règles et héritage en CSS. Tous les sélecteurs sont disponibles dans le fichier [`style.css`](./cascade/style.css). 
+Contient un exemple de cascade de règles et héritage en CSS. Tous les sélecteurs sont disponibles dans le fichier [`style.css`](./cascade/style.css). 
 
 Notez que la taille de l'élément `<p>` est contrôlée par les règles CSS affectant son parent `<div>` ayant l'id `wrap`.
 
+## [position](./position/)
+
+Contient différents exemples de positionnement à l'aide de l'attribut `position` ainsi que l'utilisation de positionnement flottant dans [`float.html`](./position/float.html).
+
+## [layout](./layout/)
+
+Contient des exemples de la gestion du débordement du contenu d'un élément.
+
+Le fichier [`percentage.html`](./layout/percentage.html) contient un exemple des problèmes potentiels de l'utilisation de pourcentages pour des éléments ayant des `margin` et `padding`, ex : `width : 100%`.
+
+Le fichier [`overflow.html`](./layout/overflow.html) contient des exemples de l'utilisation de l'attribut `overflow` pour contrôler l'affichage du contenu qui dépasse la taille de son parent.
+
 ## [flexbox](./flexbox/)
 
-Contiens un exemple de boîte flexible (_flexbox_) CSS. Le fichier [`style.css`](./flexbox/style.css) contient plusieurs variants des manipulations possibles d'un _flexbox_ : 
+Contient un exemple de boîte flexible (_flexbox_) CSS. Le fichier [`style.css`](./flexbox/style.css) contient plusieurs variants des manipulations possibles d'un _flexbox_ : 
 - taille relative des éléments de la boite
 - ordonnancement indexé des éléments de la boîte 
 

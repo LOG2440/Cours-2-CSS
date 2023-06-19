@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Overflow</title>
+  <style>
+    div {
+      border: 1px solid black;
+      width: 100px;
+      height: 100px;
+      margin-bottom: 50px;
+    }
+
+    #overflow-default {
+      overflow: visible;
+    }
+
+    #overflow-hidden {
+      overflow: hidden;
+    }
+
+    #overflow-scroll {
+      overflow-y: scroll;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="overflow-default">
+    <p>Ceci est un texte très long qui va dépasser la taille maximale de son parent.</p>
+  </div>
+  <div id="overflow-hidden">
+    <p>Ceci est un texte très long qui va être caché lorsqu'il dépasse le parent.</p>
+  </div>
+  <div id="overflow-scroll">
+    <p>Ceci est un texte très long qui aura une barre de défilement sur son hauteur.</p>
+  </div>
+</body>
+
+</html>
