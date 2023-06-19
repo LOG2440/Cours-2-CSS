@@ -1,0 +1,38 @@
+<html lang="en">
+
+<head>
+  <style>
+    div {
+      border: solid 1pt;
+    }
+
+    #div0 {
+      position: relative;
+      width: 100pt;
+      height: 100pt;
+      color: red;
+    }
+
+    #div1 {
+      position: absolute;
+      width: 50pt;
+      top: 25pt;
+      left: 25pt;
+      color: blue;
+    }
+
+    #div2 {
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Positionnement absolu (avec boîte englobante) </h1>
+  <div id="div0">
+    <div id="div1"> Bla bla bla </div>
+    <div id="div2"> 2e élément </div>
+  </div>
+</body>
+
+</html>
