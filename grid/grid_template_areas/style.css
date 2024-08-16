@@ -4,8 +4,6 @@
                          "un deux trois"
                          "un quatre quatre";
     grid-template-columns: 0.25fr 1fr 0.25fr;
-    grid-auto-rows: repeat(3, 1fr);
-    
 }
 
 .conteneur>div {

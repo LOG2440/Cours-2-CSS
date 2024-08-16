@@ -1,7 +1,6 @@
 .conteneur {
     display: grid;
     grid-template-columns: 0.25fr 1fr 0.25fr;
-    grid-auto-rows: repeat(2, 1fr);
 }
 
 .conteneur>div {
