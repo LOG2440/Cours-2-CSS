@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exemple de box-sizing</title>
+  <style>
+    #externe {
+      width: 200px;
+      height: 200px;
+      border: solid 10px red;
+      padding: 20px;
+      margin: 10px;
+    }
+
+    #interne {
+      border: solid 10px blue;
+      height: 160px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    section {
+      background-size: 10px 10px;
+      background-image:
+        linear-gradient(to right, #80808020 1px, transparent 1px),
+        linear-gradient(to bottom, #80808020 1px, transparent 1px);
+    }
+  </style>
+</head>
+
+<body>
+  <section>
+    <h3>Boîte interne à 100% avec <code>box-sizing: border-box;</code></h3>
+    <div id="externe">
+      <div id="interne"></div>
+    </div>
+  </section>
+</body>
+
+</html>
