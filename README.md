@@ -81,13 +81,27 @@ grid-template-areas: "un deux trois"
 
 ## [media_query](./media_query/)
 
-Contiens un exemple de requêtes média basées sur la taille de l'écran en pixels. Les deux requêtes sont définies dans [style.css](./media_query/style.css) et utilisent la propriété `min-width` comme contrainte d'application.
+Contient un exemple de requêtes média basées sur la taille de l'écran en pixels. Les deux requêtes sont définies dans [style.css](./media_query/style.css) et utilisent la propriété `min-width` comme contrainte d'application.
 
 Sous le seuil de 400px, les 4 enfants de l'élément `<div class="wrapper">` sont affichés dans une seule colonne.
 
 La première requête média (`min-width: 400px`) modifie l'affichage pour placer les 2 éléments `<aside>` sur la même ligne.
 
 La deuxième requête média (`min-width: 600px`) modifie l'affichage pour placer l'élément `<main>`. entre les 2 éléments `<aside>` sur la même ligne. `<main>` occupe également 60% de l'espace grâce à l'attribut `flex` qui est modifié par la requête.
+
+## [exemple_recap](./example_recap/)
+
+Contient un exemple de page web complète avec une structure HTML et un style CSS plus élaboré. Cet exemple utilise plusieurs des notions vues dans les autres exemples :
+- syntaxe de base du CSS
+- sélecteurs CSS
+- variables CSS
+- spécificité
+- cascade et héritage
+- boîte flexible (_flexbox_)
+- grille (_grid_)
+- requêtes média
+  - pour les écrans de moins de 768px
+  - pour un mode sombre (si préférence de thème sombre dans le navigateur) 
 
 # VSCode et affichage de spécificité
 
