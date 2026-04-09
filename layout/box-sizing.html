@@ -37,8 +37,8 @@
       /* Jouez avec ces parametres */
       box-sizing: border-box;
       /* border-width: 10px; */
-      /* margin: 25px; */
       /* padding: 0px 20px; */
+      /* margin: 25px; */
     }
   </style>
 </head>
@@ -46,7 +46,14 @@
 <body>
   <section>
     <h3>Boîte interne à 100% avec <code>box-sizing: border-box;</code></h3>
-    <p>Ouvrez l'éditeur de style et jouez avec les paramètres de la boite interne!</p>
+    <p>Ouvrez l'éditeur de style et jouez avec les paramètres de la boîte interne : </p>
+    <h2><code>border-width</code>, <code>margin</code> et <code>padding</code> </h2>
+    <p>Modifiez également les valeurs de <code>box-sizing</code> et <code>width</code> pour voir les effets sur la boîte
+      interne. Par exemple : </p>
+    <section style="display: flex; flex-direction: column; gap: 5px; margin-bottom: 10px; align-items: center;">
+      <code>box-sizing: border-box; width: 100%; margin: 25px;</code> VS
+      <code>box-sizing: border-box; width: auto; margin: 0px;</code>
+    </section>
     <div id="externe">
       <div id="interne">MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM</div>
     </div>
