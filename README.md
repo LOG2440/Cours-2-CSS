@@ -33,7 +33,7 @@ Contient des exemples de la gestion du débordement du contenu d'un élément.
 
 Le fichier [percentage.html](./layout/percentage.html) contient un exemple des problèmes potentiels de l'utilisation de pourcentages pour des éléments ayant des `margin` et `padding`, ex : `width : 100%`.
 
-Le fichier [box-sizing.html](./layout/box-sizing.html) contient un exemple de l'utilisation de la propriété `box-sizing` pour contrôler la taille d'un élément en incluant ou excluant les marges et les bordures.
+Le fichier [box-sizing.html](./layout/box-sizing.html) contient un exemple de l'utilisation de la propriété `box-sizing` pour contrôler la taille d'un élément en incluant ou excluant les marges et les bordures. L'exemple permet de jouer avec les différentes propriétés de la boîte pour voir leur effet sur la taille de l'élément dans les outils de développement du navigateur.
 
 Le fichier [overflow.html](./layout/overflow.html) contient des exemples de l'utilisation de l'attribut `overflow` pour contrôler l'affichage du contenu qui dépasse la taille de son parent.
 

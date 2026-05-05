@@ -9,23 +9,36 @@
     #externe {
       width: 200px;
       height: 200px;
-      border: solid 10px red;
-      padding: 20px;
-      margin: 10px;
+      border-width: 0px;
+      border-color: red;
+      border-style: solid;
+
+      /* Jouez avec ces parametres */
+      /* border-width: 10px; */
+      /* padding: 20px; */
+      /* margin: 10px; */
+
+      /* Ajout pour mieux voir */
+      outline: 2px dotted rebeccapurple;
+      transition: all 1s ease-in;
     }
 
     #interne {
-      border: solid 10px blue;
       height: 160px;
+      width: auto;
       width: 100%;
-      box-sizing: border-box;
-    }
+      word-wrap: break-word;
+      transition: 1s ease-in;
+      transition-property: all;
 
-    section {
-      background-size: 10px 10px;
-      background-image:
-        linear-gradient(to right, #80808020 1px, transparent 1px),
-        linear-gradient(to bottom, #80808020 1px, transparent 1px);
+      outline: 1px dashed red;
+      border: solid 0px blue;
+
+      /* Jouez avec ces parametres */
+      box-sizing: border-box;
+      /* border-width: 10px; */
+      /* padding: 0px 20px; */
+      /* margin: 25px; */
     }
   </style>
 </head>
@@ -33,8 +46,16 @@
 <body>
   <section>
     <h3>Boîte interne à 100% avec <code>box-sizing: border-box;</code></h3>
+    <p>Ouvrez l'éditeur de style et jouez avec les paramètres de la boîte interne : </p>
+    <h2><code>border-width</code>, <code>margin</code> et <code>padding</code> </h2>
+    <p>Modifiez également les valeurs de <code>box-sizing</code> et <code>width</code> pour voir les effets sur la boîte
+      interne. Par exemple : </p>
+    <section style="display: flex; flex-direction: column; gap: 5px; margin-bottom: 10px; align-items: center;">
+      <code>box-sizing: border-box; width: 100%; margin: 25px;</code> VS
+      <code>box-sizing: border-box; width: auto; margin: 0px;</code>
+    </section>
     <div id="externe">
-      <div id="interne"></div>
+      <div id="interne">MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM</div>
     </div>
   </section>
 </body>
